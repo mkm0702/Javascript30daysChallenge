@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Image Gallery</title>
+    <style>
+      html {
+        box-sizing: border-box;
+        font-family: Helvetica, sans-serif;
+        font-size: 20px;
+        font-weight: 200;
+      }
+
+      body {
+        margin: 0;
+      }
+      .panels {
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        min-height: 100vh;
+      }
+      .panel {
+        flex: 1;
+        background-size: cover;
+        background-position: center;
+      }
+
+      .panel > * {
+        border: 1px solid red;
+      }
+      .panel1 {
+        background-image: url("1.jpg");
+        color: white;
+      }
+
+      .panel2 {
+        background-image: url("2.jpg");
+        color: white;
+      }
+
+      .panel3 {
+        background-image: url("4.jpg");
+      }
+
+      .panel4 {
+        background-image: url("3.jpg");
+        color: white;
+      }
+
+      .panel5 {
+        background-image: url("5.jpg");
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="panels">
+      <div class="panel panel1">
+        <p>HEY</p>
+        <p>LET'S</p>
+        <p>DANCE</p>
+      </div>
+      <div class="panel panel2">
+        <p>GIVE</p>
+        <p>TAKE</p>
+        <p>RECEIVE</p>
+      </div>
+      <div class="panel panel3">
+        <p>EXPRIENCE</p>
+        <p>IT</p>
+        <p>TODAY</p>
+      </div>
+      <div class="panel panel4">
+        <p>GIVE</p>
+        <p>ALL</p>
+        <p>YOU CAN</p>
+      </div>
+      <div class="panel panel5">
+        <p>LIFE</p>
+        <p>IN</p>
+        <p>MOTION</p>
+      </div>
+    </div>
+  </body>
+</html>
